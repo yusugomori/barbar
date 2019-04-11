@@ -48,7 +48,9 @@ if __name__ == '__main__':
             self._reset()
 
         def __len__(self):
-            return int(np.ceil(len(self.dataset) / self.batch_size))
+            N = len(self.dataset)
+            b = self.batch_size
+            return N // b + bool(N % b)
 
         def __iter__(self):
             return self

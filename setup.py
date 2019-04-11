@@ -3,7 +3,7 @@ from setuptools import find_packages
 
 setup(
     name='barbar',
-    version='0.2.0',
+    version='0.2.1',
     description='Progress bar for deep learning training iterations',
     author='Yusuke Sugomori',
     author_email='me@yusugomori.com',
