@@ -1,5 +1,4 @@
 import time
-import sys
 
 
 class Bar(object):
@@ -58,7 +57,7 @@ class Bar(object):
             bar,
             eta
         )
-        sys.stdout.write(tmpl)
+        print(tmpl, end='')
         if self._batch_idx == len(self.dataset):
             print()
 
