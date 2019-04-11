@@ -36,3 +36,25 @@ Epoch: 1
 Epoch: 2
 28100/60000: [==============>.................] - ETA 4.1s
 ```
+
+## Installation
+
+- **Install Barbar from PyPI (recommended):**
+
+```sh
+pip install barbar
+```
+
+- **Alternatively: install Barbar from the GitHub source:**
+
+First, clone Barbar using `git`:
+
+```sh
+git clone https://github.com/yusugomori/barbar.git
+```
+
+ Then, `cd` to the Barbar folder and run the install command:
+```sh
+cd barbar
+sudo python setup.py install
+```
