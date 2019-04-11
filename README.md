@@ -1,6 +1,10 @@
 # Barbar
 Progress bar for deep learning training iterations.
 
+![screenshot](https://user-images.githubusercontent.com/770299/55931402-3bb76000-5c60-11e9-9686-f6ae23adcaf0.png)
+
+
+
 ## Quick glance
 
 ```python
