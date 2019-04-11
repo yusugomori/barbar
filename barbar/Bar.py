@@ -26,7 +26,11 @@ class Bar(object):
     def __next__(self):
         if len(self._time) < 2:
             self._time.append(time.time())
+
         self._batch_idx += self.batch_size
+        if self._batch_idx > len(self.dataset):
+            self._batch_idx = len(self.dataset)
+
         try:
             batch = next(self.iterator)
             self._display()
