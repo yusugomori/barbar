@@ -33,8 +33,7 @@ if __name__ == '__main__':
     '''
     root = os.path.join('~', '.torch', 'mnist')
     transform = transforms.Compose([transforms.ToTensor(),
-                                    lambda x: x.view(-1),
-                                    lambda x: x / 255.])
+                                    lambda x: x.view(-1)])
     mnist_train = datasets.MNIST(root=root,
                                  download=True,
                                  train=True,
